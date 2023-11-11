@@ -1,37 +1,67 @@
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    background-color: ##54463F;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family:'EB Garamond', serif;
-    font-family:'Libre Baskerville', serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Libre Baskerville', serif;
+    background-image: url(https://images.unsplash.com/photo-1603484477859-abe6a73f9366?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
-    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
 }
 
 h2 {
-    font-size: 30px;
-}
-
-.header {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
 }
 
-.subheader {
+h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+}
+
+.main-image {
+    border-width: 10px;
 }
 
 .nav-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 60vw;
     list-style-type: none;
-    margin-right: 50px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.footer {
+    font-style: italic;
 }
